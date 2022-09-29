@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><title>Contact Us</title></head>
+    <body bgcolor="cyan">
+        <main>
+            <header><font face="Arial"><h1>Send us a Message</h1>
+            </font></header>
+            <form action="./thanks.html" netlify method="post">
+                <fieldset>
+                    <legend><font face="Lucida Sans">User Information - Informations de l'utilisateur</font></legend>
+                    <font face="Calibri">
+                    <p>
+                        <label for="FirstName">First Name - Prénom: </label><br>
+                        <input type="text" name="FirstName" id="FirstName">
+                        
+                    </p>
+                    <p>
+                        <label for="LastName">Last Name - Nom de Famille: </label><br>
+                        <input type="text" name="LastName" id="LastName">
+
+                    </p>
+                    <p>
+                        <label for="e-mail">E-Mail</label><br>
+                        <input type="email" name="e-mail" id="e-mail">
+                    </p>
+                    <p>
+                        <label for="Phone">Phone - Téléphoner</label><br>
+                        <input type="tel" name="phone" id="phone">
+                    </p>
+                    </font>
+                </fieldset>
+                <fieldset>
+                    <font face="Calibri">
+                        <legend>Reason for the Query? - Raison de la requête?</legend>
+                        <p>Please Select One option - Veuillez sélectionner une option:</p>
+                        <ul>
+                            <li>
+                            <input type="checkbox" name="career" id="career" value="career">
+                            <label for="career">Career Oppertunity - Opportunité de carrière</label>
+                            </li>
+                            <li>
+                            <input type="checkbox" name="business" id="business" value="business">
+                            <label for="business">Business Oppertunity - Opportunité d'affaires</label>
+                            </li>
+                            <li>
+                            <input type="checkbox" name="general" id="general" value="general">
+                            <label for="general">General Query - Requête générale</label>
+                            </li>
+                            <li>
+                            <input type="checkbox" name="complaint" id="complaint" value="complaint">
+                            <label for="complaint">Complaints - Plaintes</label>
+                            </li>
+                        </ul><br>
+                        <p>
+                            <label for="message">Type your message here - Tapez votre message ici</label>
+                            <input type=”text” style="height:50px ;width:250px" name="message" id="message">
+                        </p>
+                    </font>
+                </fieldset>
+                <p>
+                    <input type="submit" value="Submit">
+                </p>
+            </form>
+        </main>
+    </body>
+</html>
